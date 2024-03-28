@@ -2,7 +2,7 @@
 import SectionContainer from '@components/layout/SectionContainer';
 
 const Banner = () => {
-  return <SectionContainer>Banner</SectionContainer>;
+  return <SectionContainer id='about-me'>Banner</SectionContainer>;
 };
 
 export default Banner;

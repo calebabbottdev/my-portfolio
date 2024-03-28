@@ -1,12 +1,18 @@
 // MUI
-import { Container } from '@mui/joy';
+import { Box, Container } from '@mui/joy';
 
-type SectionContainerProps = {
+const SectionContainer = ({
+  id,
+  children,
+}: {
+  id: string;
   children: React.ReactNode;
-};
-
-const SectionContainer: React.FC<SectionContainerProps> = (props) => {
-  return <Container>{props.children}</Container>;
+}) => {
+  return (
+    <Box id={id} sx={{ minHeight: '100vh' }}>
+      <Container maxWidth='md'>{children}</Container>
+    </Box>
+  );
 };
 
 export default SectionContainer;
