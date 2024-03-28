@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Container maxWidth='md' sx={{ p: 2 }}>
+      <Container maxWidth='md' sx={{ p: 1 }}>
         <Grid
           container
           direction='row'
@@ -72,7 +72,7 @@ const Navbar = () => {
       </Container>
       <Drawer anchor='top' open={open} onClose={toggleDrawer(false)}>
         <Box onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
-          <List sx={{ p: 2 }}>
+          <List sx={{ p: 1 }}>
             <Grid
               container
               direction='row'
