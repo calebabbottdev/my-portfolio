@@ -6,7 +6,7 @@ import { Switch, useColorScheme } from '@mui/joy';
 
 // Sections
 import Services from '@sections/services/Services';
-import Banner from '@sections/banner/Banner';
+import About from '@sections/about/About';
 import Projects from '@sections/projects/Projects';
 import Contact from '@sections/contact/Contact';
 import { DarkMode, LightMode } from '@mui/icons-material';
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Banner />
+      <About />
       <Services />
       <Projects />
       <Contact />
