@@ -46,10 +46,13 @@ const Navbar = () => {
           direction='row'
           justifyContent='flex-end'
           alignItems='center'
-          spacing={3}
+          // spacing={3}
         >
           {menuItems.map((item, index) => (
-            <Grid key={index} sx={{ display: { xs: 'none', sm: 'flex' } }}>
+            <Grid
+              key={index}
+              sx={{ display: { xs: 'none', sm: 'flex' }, ml: 3 }}
+            >
               <Link href={item.href} sx={{ color: 'primary' }}>
                 {item.label}
               </Link>
