@@ -15,9 +15,8 @@ const Banner = () => {
       </Typography>
       <Typography level='body-md' color='neutral' sx={{ pt: 2 }}>
         I specialize in transforming concepts into digital realities through the
-        power of code. As a web developer and automation engineer, I craft
-        seamless web experiences and efficient automation solutions tailored to
-        your needs.
+        power of code. As a web and automation developer, I craft seamless web
+        experiences and efficient automation solutions tailored to your needs.
       </Typography>
       <Link
         variant='soft'
